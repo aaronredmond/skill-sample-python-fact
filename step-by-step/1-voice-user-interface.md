@@ -19,7 +19,7 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
 4.  **Click "Create Skill."**
 
-    <a href="https://developer.amazon.com/edw/home.html#/skill/create/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/1-Create-Skill-Button.png" /></a>
+    <a href="https://developer.amazon.com/edw/home.html#/skill/create/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/1-Create-Skill-Button.png" style="width:165;height:49;"/></a>
 
 5.	**Enter a name for your skill.** Then click the "Next" button. This will get you to the first page of your new Alexa skill.
 	
