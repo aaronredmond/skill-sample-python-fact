@@ -9,9 +9,9 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
     <a href="http://developer.amazon.com" target="_new"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-1-developer-portal._TTH_.png" /></a>
 
-2.  **Once you have signed in, click the Alexa button at the top of the screen.**
+2.  **Once you have signed in, click the Alexa button under the Alexa icon.**
 
-    <a href="https://developer.amazon.com/edw/home.html#/" target="_new"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-2-alexa-button._TTH_.png" /></a>
+    <a href="https://developer.amazon.com/edw/home.html#/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/Alexa_button_new.png" /></a>
 
 3.  **On the Alexa page, choose the "Get Started" button for the Alexa Skills Kit.**
 
