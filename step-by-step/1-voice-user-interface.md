@@ -29,10 +29,6 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 	
 	<a href="https://developer.amazon.com/edw/home.html#/skill/create/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/1-Choose-Model.png" /></a>
 		
-7.  **Fill out the Skill Information screen.**  Make sure to review the tips we provide below the screenshot.
-
-    <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-5-skill-information._TTH_.png" />
-
     ### Skill Information Tips
     1.  **Skill Type** For this skill, we are creating a skill using the Custom Interaction Model.  This is the default choice.
 
@@ -53,21 +49,9 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
         5.  **Audio Player** For this Fact skill, we won't be using any audio files, so you can select No for this option.  If you would like to learn more about adding audio to your skills, please check out our [Audio Player Guide](https://github.com/alexa/skill-sample-nodejs-audio-player).
 
-8.  **Click the Next button to move to the Interaction Model.**
+7.  In the JSON Editor replace any existing code with the code provided in the [Interaction Model](../InteractionModel.json), then click "Save Model".  
 
-    <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-6-next-button._TTH_.png" />
-
-9.  Click on the **Launch Skill Builder** (Beta) button . This will launch the new Skill Builder Dashboard.
-
-    ![Launch Skill Builder](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-7-skill-builder-launch._TTH_.png)
-
-10.  Click on the "Code Editor" item under **Dashboard** on the top left side of the skill builder.
-
-11.  In the textfield provided, replace any existing code with the code provided in the [Interaction Model](../InteractionModel.json), then click "Apply Changes" or "Save Model".  
-
-12. Click on the "Dashboard" button.
-
-13. Add some more sample utterances for your newly generated intents.  Think of all the different ways that a user could request to make a specific intent happen.  Here are a few examples for DescriptionIntent:
+8. Add some more sample utterances for your newly generated intents.  Think of all the different ways that a user could request to make a specific intent happen.  Here are a few examples for DescriptionIntent:
 
     * Give me a fact
     * Tell me a fact
@@ -76,61 +60,7 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
     ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-10-sample-utterances._TTH_.png)
 
-14. Click on the **Save Model** button, and then click on the **Build Model** button.
-
-    ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-12-skill-builder-build-save-model._TTH_.png)
-
-<!--
-7.  **Fill out the Interaction Model screen.**  Below the screenshot, we have provided links to the content you need to include in each box.
-
-    <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-7-interaction-model._TTH_.png" />
-
-    ### Interaction Model Tips
-    1.  **Intent Schema** An intent schema defines the actions that we want our users to be able to take.  We will dive into modifying this schema later in this guide, so for now, just copy and paste this code into the Intent Schema box. ([Read more about Defining the Voice Interface](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/defining-the-voice-interface))
-
-        ```JAVASCRIPT
-        { "intents": [
-            { "intent": "GetNewFactIntent" },
-            { "intent": "AMAZON.HelpIntent" },
-            { "intent": "AMAZON.StopIntent" },
-            { "intent": "AMAZON.CancelIntent" }
-        ]}
-        ```
-        ([get this code on GitHub](https://github.com/alexa/skill-sample-nodejs-fact/blob/master/speechAssets/intentSchema.json))
-
-        We have four intents in this schema.  The first, "GetNewFactIntent" is what we will use to catch all of our user's requests for a new fact.  The remaining three are built-in intents that are provided by Amazon.  They capture, respectively, user intents for help, stopping, and cancelling what Alexa is currently doing.
-
-    2.  **Sample Utterances** Sample utterances are a guide for Alexa to figure out how to map what a user says to your Intents that we defined earlier.  For now, you just need to copy these sample utterances into the Sample Utterances box in your browser.
-
-        ```javascript
-        GetNewFactIntent a fact
-        GetNewFactIntent a space fact
-        GetNewFactIntent tell me a fact
-        GetNewFactIntent tell me a space fact
-        GetNewFactIntent give me a fact
-        GetNewFactIntent give me a space fact
-        GetNewFactIntent tell me trivia
-        GetNewFactIntent tell me a space trivia
-        GetNewFactIntent give me trivia
-        GetNewFactIntent give me a space trivia
-        GetNewFactIntent give me some information
-        GetNewFactIntent give me some space information
-        GetNewFactIntent tell me something
-        GetNewFactIntent give me something
-        ```
-        ([get this on GitHub](https://github.com/alexa/skill-sample-nodejs-fact/blob/master/speechAssets/sampleUtterances_en_US.json))
-
-        Once you have added these sample utterances to your skill, you can click the "Save" button to verify that your interaction model is built properly without any errors.
--->
-
-15.  If your interaction model builds successfully, click on **Configuration button** to move on to Configuration. In our next step of this guide, we will be creating our Lambda function in the AWS developer console, but keep this browser tab open, because we will be returning here on [Page #3: Connect VUI to Code](./3-connect-vui-to-code.md).
-     ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-13-skill-builder-configuration.png)
-
-     If you get an error from your interaction model, check through this list:
-
-     *  **Did you copy & paste the provided code into the appropriate boxes?**
-     *  **Did you accidentally add any characters to the Interaction Model or Sample Utterances?**
-
+9. Click on the **Save Model** button, and then click on the **Build Model** button.
 
 <br/><br/>
 <a href="./2-lambda-function.md"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_lambda_function._TTH_.png" /></a>
