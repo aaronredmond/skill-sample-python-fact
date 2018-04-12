@@ -21,11 +21,15 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
     <a href="https://developer.amazon.com/edw/home.html#/skill/create/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/1-Create-Skill-Button.png" /></a>
 
-5.	**Enter a name for your skill.** Then click the "Next" button. This will get you to the first page of your new Alexa skill.
+5.	**Enter a name for your skill.** You may also change the language from the default (English (US)) here. Then click the "Next" button. 
 
     <a href="https://developer.amazon.com/edw/home.html#/skill/create/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/1-Name-Skill.png" /></a>
+
+6.	**Choose the custom model for your skill.** Click "Create Skill". This will get you to the first page of your new Alexa skill.
 	
-6.  **Fill out the Skill Information screen.**  Make sure to review the tips we provide below the screenshot.
+	<a href="https://developer.amazon.com/edw/home.html#/skill/create/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/1-Choose-Model.png" /></a>
+		
+7.  **Fill out the Skill Information screen.**  Make sure to review the tips we provide below the screenshot.
 
     <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-5-skill-information._TTH_.png" />
 
@@ -49,21 +53,21 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
         5.  **Audio Player** For this Fact skill, we won't be using any audio files, so you can select No for this option.  If you would like to learn more about adding audio to your skills, please check out our [Audio Player Guide](https://github.com/alexa/skill-sample-nodejs-audio-player).
 
-7.  **Click the Next button to move to the Interaction Model.**
+8.  **Click the Next button to move to the Interaction Model.**
 
     <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-6-next-button._TTH_.png" />
 
-8.  Click on the **Launch Skill Builder** (Beta) button . This will launch the new Skill Builder Dashboard.
+9.  Click on the **Launch Skill Builder** (Beta) button . This will launch the new Skill Builder Dashboard.
 
     ![Launch Skill Builder](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-7-skill-builder-launch._TTH_.png)
 
-9.  Click on the "Code Editor" item under **Dashboard** on the top left side of the skill builder.
+10.  Click on the "Code Editor" item under **Dashboard** on the top left side of the skill builder.
 
-10.  In the textfield provided, replace any existing code with the code provided in the [Interaction Model](../InteractionModel.json), then click "Apply Changes" or "Save Model".  
+11.  In the textfield provided, replace any existing code with the code provided in the [Interaction Model](../InteractionModel.json), then click "Apply Changes" or "Save Model".  
 
-11. Click on the "Dashboard" button.
+12. Click on the "Dashboard" button.
 
-12. Add some more sample utterances for your newly generated intents.  Think of all the different ways that a user could request to make a specific intent happen.  Here are a few examples for DescriptionIntent:
+13. Add some more sample utterances for your newly generated intents.  Think of all the different ways that a user could request to make a specific intent happen.  Here are a few examples for DescriptionIntent:
 
     * Give me a fact
     * Tell me a fact
@@ -72,7 +76,7 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
     ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-10-sample-utterances._TTH_.png)
 
-13. Click on the **Save Model** button, and then click on the **Build Model** button.
+14. Click on the **Save Model** button, and then click on the **Build Model** button.
 
     ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-12-skill-builder-build-save-model._TTH_.png)
 
@@ -119,7 +123,7 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
         Once you have added these sample utterances to your skill, you can click the "Save" button to verify that your interaction model is built properly without any errors.
 -->
 
-14.  If your interaction model builds successfully, click on **Configuration button** to move on to Configuration. In our next step of this guide, we will be creating our Lambda function in the AWS developer console, but keep this browser tab open, because we will be returning here on [Page #3: Connect VUI to Code](./3-connect-vui-to-code.md).
+15.  If your interaction model builds successfully, click on **Configuration button** to move on to Configuration. In our next step of this guide, we will be creating our Lambda function in the AWS developer console, but keep this browser tab open, because we will be returning here on [Page #3: Connect VUI to Code](./3-connect-vui-to-code.md).
      ![](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-13-skill-builder-configuration.png)
 
      If you get an error from your interaction model, check through this list:
