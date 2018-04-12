@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "easter facts",
+            "invocationName": "python facts",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
