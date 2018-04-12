@@ -13,9 +13,9 @@ There are two parts to an Alexa skill.  The first part is the [Voice User Interf
 
     <a href="https://developer.amazon.com/edw/home.html#/" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/Alexa_button_new.png" /></a>
 
-3.  **On the Alexa page, choose the "Get Started" button for the Alexa Skills Kit.**
+3.  **At the top Alexa page, choose "Skills" from the "Your Alexa Consoles" menu.**
 
-    <a href="https://developer.amazon.com/edw/home.html#/skills/list" target="_new"><img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/1-3-alexa-skills-kit._TTH_.png" /></a>
+    <a href="https://developer.amazon.com/edw/home.html#/skills/list" target="_new"><img src="https://github.com/aaronredmond/skill-sample-python-fact/blob/master/step-by-step/1-Your.Alexa-Consoles.png" /></a>
 
 4.  **Select "Add A New Skill."** This will get you to the first page of your new Alexa skill.
 
